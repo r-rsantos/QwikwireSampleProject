@@ -1,0 +1,109 @@
+.pagediv
+{
+    padding-left: 85px;
+    padding-top: 15px;
+    padding-right: 80px;
+}
+
+
+.linkcolors a
+{
+ color: white;  
+ font-weight: bold;
+}
+
+.background-image
+{
+    height: 625px; 
+    width: 526px;
+    position:fixed; 
+    right:0px; 
+    top:0px; 
+    z-index:-1;
+}
+
+.solutions
+{
+    background: white;
+    padding-bottom: 200px; 
+    padding-top: 100 px;
+    padding-left: 10px;
+    
+}
+
+.subtitletextdiv
+{ 
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+ 
+.subtitle
+{
+    color: #505050;
+    font-weight: bold;
+    flex-grow:0;
+
+}  
+
+.subtitleline
+{
+    flex-grow:1;
+    height: 1px;
+    background-color: darkgray;
+}
+
+
+.solutionscolumn
+{
+    float: left;
+    width: 30%;
+    padding-top: 50px;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bg-features{
+
+    background-image: url('../Resources/Features-Image.jpg');
+    background-size: cover;
+}
+
+.new-product
+{
+    background-color:white;
+}
+
+.our-products
+{
+    background-color:white; 
+    padding-top: 50px;
+}
+
+.meeting-sched
+{ 
+    background-color:white; 
+    padding-top: 50px;"
+}
+
+.final
+{
+    background-color:white; 
+    padding-top: 330px; 
+    padding-bottom: 300px;
+}
+
+.landing
+{
+    padding-bottom: 70px;
+}
+
+.filldiv
+{
+    width: 100vw;
+}
